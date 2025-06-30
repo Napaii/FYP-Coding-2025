@@ -2,12 +2,12 @@
 #include "ThingSpeak.h"
 
 // WiFi credentials
-const char* ssid = "Pie";
-const char* password = "Napie001";
+const char* ssid = "wifiusername";
+const char* password = "wifipassword";
 
 // ThingSpeak settings
 unsigned long myChannelNumber = 2958251;
-const char* myWriteAPIKey = "JJLT5AF5B5CMCZ8C";
+const char* myWriteAPIKey = "apikey";
 
 // GPIO setup
 const int tempPin = 35;      // LM35 sensor (ADC1_7)
