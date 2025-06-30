@@ -11,16 +11,17 @@ const float Vin = 3.3;
 const float Rfixed = 330.0; 
 const float analogPin = A0; 
 
-// WiFi Setup
-const char* ssid = "Pie";
-const char* password = "Napie001";
+// WiFi credentials
+const char* ssid = "wifiusername";
+const char* password = "wifipassword";
 
 // ThingSpeak Configuration
 // Ensure your ThingSpeak channel has at least 2 fields enabled for this version:
 // Field 1: Measured Temperature
 // Field 2: Measured Sample Resistance
+// ThingSpeak settings
 unsigned long myChannelNumber = 2958251;
-const char* myWriteAPIKey = "JJLT5AF5B5CMCZ8C";
+const char* myWriteAPIKey = "apikey";
 WiFiClient client;
 
 void setup() {
